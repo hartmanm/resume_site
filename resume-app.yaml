@@ -1,0 +1,13 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /
+  static_files: resume/resume.html
+  upload: resume/resume.html
+
+- url: /(.*\.(png|jpg|jpeg|zip|jp2|css|js|html))$
+  static_files: resume/\1
+  upload: resume/.*\.(png|jpg|jpeg|zip|jp2|css|js|html)$
