@@ -6,11 +6,11 @@ https://github.com/hartmanm
 
 var base = document.getElementById("base");
 
-function generate_div(basename,innerhtml)
+function generate_div(basename,innerhtml,id)
 {
 var base = document.getElementById(basename);
 let ddiv = document.createElement("div");
-//ddiv.className = "header";
+ddiv.id = id;
 ddiv.innerHTML = innerhtml;
 base.appendChild(ddiv);
 }
@@ -19,7 +19,6 @@ function generate_h1(basename,innerhtml)
 {
 var base = document.getElementById(basename);
 let ddiv = document.createElement("h1");
-//ddiv.className = "header";
 ddiv.innerHTML = innerhtml;
 base.appendChild(ddiv);
 }
@@ -57,8 +56,8 @@ lamdalink.addEventListener("mouseover", function(e){var target = e.target || e.s
 lamdalink.addEventListener("mouseleave", function(e){var target = e.target || e.srcElement; leave(infoid)}, false);
 lamdalink.addEventListener("click", function(e){var target = e.target || e.srcElement; execute_z(target,url)}, false);
 }
-generate_h1('b1',resume_name+'      ');
-generate_div('b1','<p>'+headline_under_name+'</p>      ');
+generate_h1('b1',resume_name);
+generate_div('b1','<p>'+headline_under_name+'</p>','headline');
 //"e r t"
 //"a b c";}
 lamda_link('base',img_row_1_a,name_row_1_a,url_row_1_a,'e','infoa','a','<br><br><br>'+name_row_1_a+'<br><br><br>');
