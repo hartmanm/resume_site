@@ -25,7 +25,7 @@ const url_row_1_c  ='https://github.com/hartmanm/pavo_td?tab=License-1-ov-file'
 // grid_row_2  d  e  f
 const img_row_2_d  ='<img src="src/hs_server.png" style="width:100px;height:100px;" alt="src/hs_server.jp2"/>'
 const name_row_2_d ='hs_server'
-const url_row_2_d  ='https://github.com/hartmanm/hs_server?tab=License-1-ov-file'
+const url_row_2_d  ='https://github.com/hartmanm/hs_server'
 
 const img_row_2_e  ='<img src="src/mining_electric_cost_calculator.png" style="width:100px;height:100px;" alt="src/mining_electric_cost_calculator.jp2"/>'
 const name_row_2_e ='cost calculator'
