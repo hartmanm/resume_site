@@ -53,7 +53,8 @@ var out = document.getElementById(infoid);
 out.style.display = "block";
 out.style = "visibility: visible;";
 var out2 = document.getElementById(id);
-out2.style = "z-index: 999;transform: scale(2); transition: transform .2s; outline-style: solid; outline-color: #CBD3EE; cursor: pointer;";
+out2.style = "z-index: 999;transform: scale(2); transition: transform .2s; cursor: pointer;";
+//out2.style = "z-index: 999;transform: scale(2); transition: transform .2s; outline-style: solid; outline-color: #CBD3EE; cursor: pointer;";
 }
 function leave(infoid){
 var out = document.getElementById(infoid);
