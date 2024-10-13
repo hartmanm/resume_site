@@ -10,9 +10,9 @@ const resume_name         ='Michael Neill Hartman'
 const headline_under_name ='<p>Some <b>Old</b> Projects</p>'
 
 // grid_row_1  a  b  c
-const img_row_1_a  ='<img src="src/openrig.png" style="width:100px;height:100px;" alt="src/openrig.jp2"/>'
-const name_row_1_a ='oros'
-const url_row_1_a  ='https://openrig.net'
+const img_row_1_a  ='<img src="src/d3_road_deaths.png" style="width:100px;height:100px;" alt="src/d3_road_deaths.jp2"/>'
+const name_row_1_a ='d3_road_deaths'
+const url_row_1_a  ='https://hartmanm.github.io/d3_road_deaths/d3_road_deaths.html'
 
 const img_row_1_b  ='<img src="src/nvoc.png" style="width:100px;height:100px;" alt="src/nvoc.jp2"/>'
 const name_row_1_b ='nvOC'
@@ -23,14 +23,14 @@ const name_row_1_c ='pavo'
 const url_row_1_c  ='https://github.com/hartmanm/pavo_td?tab=License-1-ov-file'
 
 // grid_row_2  d  e  f
-const img_row_2_d  ='<img src="src/wasm_go.png" style="width:100px;height:100px;" alt="src/wasm_go.jp2"/>'
-const name_row_2_d ='wasm-go'
-const url_row_2_d  ='https://github.com/hartmanm/wasm_go?tab=License-1-ov-file'
+const img_row_2_d  ='<img src="src/hs_server.png" style="width:100px;height:100px;" alt="src/hs_server.jp2"/>'
+const name_row_2_d ='hs_server'
+const url_row_2_d  ='https://github.com/hartmanm/hs_server?tab=License-1-ov-file'
 
 const img_row_2_e  ='<img src="src/mining_electric_cost_calculator.png" style="width:100px;height:100px;" alt="src/mining_electric_cost_calculator.jp2"/>'
-const name_row_2_e ='mining_electric_cost_calculator'
+const name_row_2_e ='cost calculator'
 const url_row_2_e  ='https://github.com/hartmanm/mining_electric_cost_calculator?tab=License-1-ov-file'
 
 const img_row_2_f  ='<img src="src/link_page.png" style="width:100px;height:100px;" alt="src/link_page.jp2"/>'
-const name_row_2_f ='link_page of archives'
+const name_row_2_f ='link_page of more projects'
 const url_row_2_f  ='https://hartmanm.github.io/link_page/link_page.html'
