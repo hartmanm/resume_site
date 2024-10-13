@@ -9,7 +9,7 @@ var base2 = document.getElementById("base2");
 
 function generate_div_w_ic(basename,innerhtml,id,classname)
 {
-let base = document.getElementById(basename);
+var base = document.getElementById(basename);
 let ddiv = document.createElement("div");
 ddiv.className = classname;
 ddiv.id = id;
@@ -20,7 +20,7 @@ base.appendChild(ddiv);
 
 function generate_div(basename,innerhtml)
 {
-let base = document.getElementById(basename);
+var base = document.getElementById(basename);
 let ddiv = document.createElement("div");
 ddiv.innerHTML = innerhtml;
 base.appendChild(ddiv);
@@ -28,7 +28,7 @@ base.appendChild(ddiv);
 
 function generate_h1(basename,innerhtml)
 {
-let base = document.getElementById(basename);
+var base = document.getElementById(basename);
 let ddiv = document.createElement("h1");
 ddiv.innerHTML = innerhtml;
 base.appendChild(ddiv);
