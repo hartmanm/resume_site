@@ -11,7 +11,7 @@ function generate_div(basename,innerhtml)
 {
 var base = document.getElementById(basename);
 let ddiv = document.createElement("div");
-ddiv.className = "header";
+//ddiv.className = "header";
 ddiv.innerHTML = innerhtml;
 base.appendChild(ddiv);
 }
@@ -20,7 +20,7 @@ function generate_h1(basename,innerhtml)
 {
 var base = document.getElementById(basename);
 let ddiv = document.createElement("h1");
-ddiv.className = "header";
+//ddiv.className = "header";
 ddiv.innerHTML = innerhtml;
 base.appendChild(ddiv);
 }
