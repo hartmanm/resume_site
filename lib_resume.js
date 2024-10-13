@@ -73,13 +73,14 @@ generate_h1('b1',resume_name);
 generate_div('b1',headline_under_name);
 //"e r t"
 //"a b c";}
-
-
-lamda_link('base',img_row_1_a,name_row_1_a,url_row_1_a,'e','infoa','a','<br><br><br>openrig.net<br><br><br>');
-lamda_link('base','<img src="src/nvoc.png" style="width:100px;height:100px;" alt="src/nvoc.jp2"/>','nvoc','https://bitcointalk.org/index.php?topic=1854250.0','r','infob','b','<br><br><br>nvOC<br><br><br>');
-lamda_link('base','<img src="src/lvl3.png" style="width:100px;height:100px;" alt="src/lvl3.jp2"/>','pavo','https://github.com/hartmanm/pavo_td?tab=License-1-ov-file','t','infoc','c','<br><br><br>PavoTD<br><br><br>');
+lamda_link('base',img_row_1_a,name_row_1_a,url_row_1_a,'e','infoa','a','<br><br><br>'+name_row_1_a+'<br><br><br>');
+lamda_link('base',img_row_1_b,name_row_1_b,url_row_1_b,'r','infob','b','<br><br><br>'+name_row_1_b+'<br><br><br>');
+lamda_link('base',img_row_1_c,name_row_1_c,url_row_1_c,'t','infoc','c','<br><br><br>'+name_row_1_c+'<br><br><br>');
 //"ee rr tt"
 //"aa bb cc";}
+lamda_link('base',img_row_2_d,name_row_2_d,url_row_2_d,'e','infoa','a','<br><br><br>'+name_row_2_d+'<br><br><br>');
+lamda_link('base',img_row_2_e,name_row_2_e,url_row_2_e,'r','infob','b','<br><br><br>'+name_row_2_e+'<br><br><br>');
+lamda_link('base',img_row_2_f,name_row_2_f,url_row_2_f,'t','infoc','c','<br><br><br>'+name_row_2_f+'<br><br><br>');
 lamda_link('base','<img src="src/wasm_go.png" style="width:100px;height:100px;" alt="src/wasm_go.jp2"/>','wasm-go','https://github.com/hartmanm/wasm_go','ee','infoaa','aa','<br><br><br>wasm-go<br><br><br>');
 lamda_link('base','<img src="src/mining_electric_cost_calculator.png" style="width:100px;height:100px;" alt="src/mining_electric_cost_calculator.jp2"/>','mining_electric_cost_calculator2','https://github.com/hartmanm/mining_electric_cost_calculator','rr','infobb','bb','<br><br><br>mining electric cost calculator<br><br><br>');
 lamda_link('base','<img src="src/polar.png" style="width:100px;height:100px;" alt="src/polar.jp2"/>','polar clock','https://polar-clock.appspot.com','tt','infovv','cc','<br><br><br>polar clock<br><br><br>');
