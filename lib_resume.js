@@ -43,17 +43,17 @@ lamdalink.addEventListener("click", function(e){var target = e.target || e.srcEl
 //"e r t"
 //"a b c";}
 //basename,innerhtml,id,url,classname,infoid,infoclass,infoinnerhtml
-lamda_link('base','<img src="/src/openrig.png" style="width:100px;height:100px;" alt="openrig.jp2"/>','oros','https://openrig.net','e','infoa','a','<br><br><br>openrig.net<br><br><br>');
-lamda_link('base','<img src="/src/nvoc.png" style="width:100px;height:100px;" alt="nvoc.jp2"/>','nvoc','https://bitcointalk.org/index.php?topic=1854250.0','r','infob','b','<br><br><br>nvOC<br><br><br>');
-lamda_link('base','<img src="/src/lvl3.png" style="width:100px;height:100px;" alt="lvl3.jp2"/>','pavo','https://github.com/hartmanm/pavo_td?tab=License-1-ov-file','t','infoc','c','<br><br><br>PavoTD<br><br><br>');
+lamda_link('base','<img src="src/openrig.png" style="width:100px;height:100px;" alt="openrig.jp2"/>','oros','https://openrig.net','e','infoa','a','<br><br><br>openrig.net<br><br><br>');
+lamda_link('base','<img src="src/nvoc.png" style="width:100px;height:100px;" alt="nvoc.jp2"/>','nvoc','https://bitcointalk.org/index.php?topic=1854250.0','r','infob','b','<br><br><br>nvOC<br><br><br>');
+lamda_link('base','<img src="src/lvl3.png" style="width:100px;height:100px;" alt="lvl3.jp2"/>','pavo','https://github.com/hartmanm/pavo_td?tab=License-1-ov-file','t','infoc','c','<br><br><br>PavoTD<br><br><br>');
 //"ee rr tt"
 //"aa bb cc";}
-lamda_link('base','<img src="/src/wasm_go.png" style="width:100px;height:100px;" alt="wasm_go.jp2"/>','wasm-go','https://github.com/hartmanm/wasm_go','ee','infoaa','aa','<br><br><br>wasm-go<br><br><br>');
-lamda_link('base','<img src="/src/mining_electric_cost_calculator.png" style="width:100px;height:100px;" alt="mining_electric_cost_calculator.jp2"/>','mining_electric_cost_calculator2','https://github.com/hartmanm/mining_electric_cost_calculator','rr','infobb','bb','<br><br><br>mining electric cost calculator<br><br><br>');
-//lamda_link('base','<img src="/src/git_guide.png" style="width:100px;height:100px;" alt="git_guide.jp2"/>','Git Guide','https://gitguide.appspot.com','tt','infocc','cc','<br><br><br>Git Guide<br><br><br>');
-lamda_link('base','<img src="/src/polar.png" style="width:100px;height:100px;" alt="polar.jp2"/>','polar clock','https://polar-clock.appspot.com','tt','infovv','cc','<br><br><br>polar clock<br><br><br>');
+lamda_link('base','<img src="src/wasm_go.png" style="width:100px;height:100px;" alt="wasm_go.jp2"/>','wasm-go','https://github.com/hartmanm/wasm_go','ee','infoaa','aa','<br><br><br>wasm-go<br><br><br>');
+lamda_link('base','<img src="src/mining_electric_cost_calculator.png" style="width:100px;height:100px;" alt="mining_electric_cost_calculator.jp2"/>','mining_electric_cost_calculator2','https://github.com/hartmanm/mining_electric_cost_calculator','rr','infobb','bb','<br><br><br>mining electric cost calculator<br><br><br>');
+//lamda_link('base','<img src="src/git_guide.png" style="width:100px;height:100px;" alt="git_guide.jp2"/>','Git Guide','https://gitguide.appspot.com','tt','infocc','cc','<br><br><br>Git Guide<br><br><br>');
+lamda_link('base','<img src="src/polar.png" style="width:100px;height:100px;" alt="polar.jp2"/>','polar clock','https://polar-clock.appspot.com','tt','infovv','cc','<br><br><br>polar clock<br><br><br>');
 //"d y f"
 //"kk vv jj";}
-//lamda_link('base','<img src="/src/polar.png" style="width:100px;height:100px;" alt="polar.jp2"/>','polar clock','https://polar-clock.appspot.com','d','infokk','kk','<br><br><br>polar clock<br><br><br>');
-//lamda_link('base','<img src="/src/polar.png" style="width:100px;height:100px;" alt="polar.jp2"/>','polar clock','https://polar-clock.appspot.com','y','infovv','vv','<br><br><br>polar clock<br><br><br>');
-//lamda_link('base','<img src="/src/polar.png" style="width:100px;height:100px;" alt="polar.jp2"/>','polar clock','https://polar-clock.appspot.com','f','infojj','jj','<br><br><br>polar clock<br><br><br>');
+//lamda_link('base','<img src="src/polar.png" style="width:100px;height:100px;" alt="polar.jp2"/>','polar clock','https://polar-clock.appspot.com','d','infokk','kk','<br><br><br>polar clock<br><br><br>');
+//lamda_link('base','<img src="src/polar.png" style="width:100px;height:100px;" alt="polar.jp2"/>','polar clock','https://polar-clock.appspot.com','y','infovv','vv','<br><br><br>polar clock<br><br><br>');
+//lamda_link('base','<img src="src/polar.png" style="width:100px;height:100px;" alt="polar.jp2"/>','polar clock','https://polar-clock.appspot.com','f','infojj','jj','<br><br><br>polar clock<br><br><br>');
