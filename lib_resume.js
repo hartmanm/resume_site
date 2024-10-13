@@ -68,9 +68,6 @@ lamda_link('base',img_row_1_c,name_row_1_c,url_row_1_c,'t','infoc','c','<br><br>
 lamda_link('base',img_row_2_d,name_row_2_d,url_row_2_d,'ee','infoaa','aa','<br><br><br>'+name_row_2_d+'<br><br><br>');
 lamda_link('base',img_row_2_e,name_row_2_e,url_row_2_e,'rr','infobb','bb','<br><br><br>'+name_row_2_e+'<br><br><br>');
 lamda_link('base',img_row_2_f,name_row_2_f,url_row_2_f,'tt','infovv','cc','<br><br><br>'+name_row_2_f+'<br><br><br>');
-lamda_link('base','<img src="src/wasm_go.png" style="width:100px;height:100px;" alt="src/wasm_go.jp2"/>','wasm-go','https://github.com/hartmanm/wasm_go','ee','infoaa','aa','<br><br><br>wasm-go<br><br><br>');
-lamda_link('base','<img src="src/mining_electric_cost_calculator.png" style="width:100px;height:100px;" alt="src/mining_electric_cost_calculator.jp2"/>','mining_electric_cost_calculator2','https://github.com/hartmanm/mining_electric_cost_calculator','rr','infobb','bb','<br><br><br>mining electric cost calculator<br><br><br>');
-lamda_link('base','<img src="src/polar.png" style="width:100px;height:100px;" alt="src/polar.jp2"/>','polar clock','https://polar-clock.appspot.com','tt','infovv','cc','<br><br><br>polar clock<br><br><br>');
 //"d y f"
 //"kk vv jj";}
 //'d','infokk','kk'
