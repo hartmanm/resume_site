@@ -7,6 +7,33 @@ https://github.com/hartmanm
 var base = document.getElementById("base");
 var base2 = document.getElementById("base2");
 
+function generate_div_w_ic(basename,innerhtml,id,classname)
+{
+var base = document.getElementById(basename);
+var ddiv = document.createElement("div");
+ddiv.className = classname;
+ddiv.id = id;
+ddiv.innerHTML = innerhtml;
+//ddiv.style = "visibility: hidden;";
+base.appendChild(ddiv);
+}
+
+function generate_div(basename,innerhtml)
+{
+var base = document.getElementById(basename);
+var ddiv = document.createElement("div");
+ddiv.innerHTML = innerhtml;
+base.appendChild(ddiv);
+}
+
+function generate_h1(basename,innerhtml)
+{
+var base = document.getElementById(basename);
+var ddiv = document.createElement("h1");
+ddiv.innerHTML = innerhtml;
+base.appendChild(ddiv);
+}
+
 function lamda_link(basename,innerhtml,id,url,classname,infoid,infoclass,infoinnerhtml)
 {
 var base = document.getElementById(basename);
@@ -40,7 +67,13 @@ lamdalink.addEventListener("mouseover", function(e){var target = e.target || e.s
 lamdalink.addEventListener("mouseleave", function(e){var target = e.target || e.srcElement; leave(infoid)}, false);
 lamdalink.addEventListener("click", function(e){var target = e.target || e.srcElement; execute_z(target,url)}, false);
 }
-lamda_link('b1','<img src="src/openrig.png" style="width:100px;height:100px;" alt="src/openrig.jp2"/>','Michael Neill Hartman','https://openrig.net','e','infoa','a','<br><br><br>openrig.net<br><br><br>');
+
+generate_h1('b1','Michael Neill Hartman');
+generate_div('b1','<p>Some <b>Old</b> Projects</p>');
+
+
+//function generate_div(basename,innerhtml,id,classname)
+//generate_div('b1','Michael Neill Hartman','appx','infoa','a','<br><br><br>openrig.net<br><br><br>');
 
 //"e r t"
 //"a b c";}
