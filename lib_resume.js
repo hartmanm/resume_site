@@ -69,13 +69,13 @@ lamdalink.addEventListener("mouseleave", function(e){var target = e.target || e.
 lamdalink.addEventListener("click", function(e){var target = e.target || e.srcElement; execute_z(target,url)}, false);
 }
 
-generate_h1('b1','Michael Neill Hartman');
-generate_div('b1','<p>Some <b>Old</b> Projects</p>');
-//function generate_div(basename,innerhtml,id,classname)
-//generate_div('b1','Michael Neill Hartman','appx','infoa','a','<br><br><br>openrig.net<br><br><br>');
+generate_h1('b1',resume_name);
+generate_div('b1',headline_under_name);
 //"e r t"
 //"a b c";}
-lamda_link('base','<img src="src/openrig.png" style="width:100px;height:100px;" alt="src/openrig.jp2"/>','oros','https://openrig.net','e','infoa','a','<br><br><br>openrig.net<br><br><br>');
+
+
+lamda_link('base',img_row_1_a,name_row_1_a,url_row_1_a,'e','infoa','a','<br><br><br>openrig.net<br><br><br>');
 lamda_link('base','<img src="src/nvoc.png" style="width:100px;height:100px;" alt="src/nvoc.jp2"/>','nvoc','https://bitcointalk.org/index.php?topic=1854250.0','r','infob','b','<br><br><br>nvOC<br><br><br>');
 lamda_link('base','<img src="src/lvl3.png" style="width:100px;height:100px;" alt="src/lvl3.jp2"/>','pavo','https://github.com/hartmanm/pavo_td?tab=License-1-ov-file','t','infoc','c','<br><br><br>PavoTD<br><br><br>');
 //"ee rr tt"
