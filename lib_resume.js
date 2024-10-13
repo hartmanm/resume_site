@@ -53,7 +53,7 @@ var out = document.getElementById(infoid);
 out.style.display = "block";
 out.style = "visibility: visible;";
 var out2 = document.getElementById(id);
-out2.style = "z-index: 999;transform: scale(2); transition: transform .2s; cursor: pointer;";
+out2.style = "z-index: 999;transform: scale(2); transition: transform .2s; cursor: pointer; border-image-width:0";
 //out2.style = "z-index: 999;transform: scale(2); transition: transform .2s; outline-style: solid; outline-color: #CBD3EE; cursor: pointer;";
 }
 function leave(infoid){
@@ -71,14 +71,10 @@ lamdalink.addEventListener("click", function(e){var target = e.target || e.srcEl
 
 generate_h1('b1','Michael Neill Hartman');
 generate_div('b1','<p>Some <b>Old</b> Projects</p>');
-
-
 //function generate_div(basename,innerhtml,id,classname)
 //generate_div('b1','Michael Neill Hartman','appx','infoa','a','<br><br><br>openrig.net<br><br><br>');
-
 //"e r t"
 //"a b c";}
-//basename,innerhtml,id,url,classname,infoid,infoclass,infoinnerhtml
 lamda_link('base','<img src="src/openrig.png" style="width:100px;height:100px;" alt="src/openrig.jp2"/>','oros','https://openrig.net','e','infoa','a','<br><br><br>openrig.net<br><br><br>');
 lamda_link('base','<img src="src/nvoc.png" style="width:100px;height:100px;" alt="src/nvoc.jp2"/>','nvoc','https://bitcointalk.org/index.php?topic=1854250.0','r','infob','b','<br><br><br>nvOC<br><br><br>');
 lamda_link('base','<img src="src/lvl3.png" style="width:100px;height:100px;" alt="src/lvl3.jp2"/>','pavo','https://github.com/hartmanm/pavo_td?tab=License-1-ov-file','t','infoc','c','<br><br><br>PavoTD<br><br><br>');
@@ -86,7 +82,6 @@ lamda_link('base','<img src="src/lvl3.png" style="width:100px;height:100px;" alt
 //"aa bb cc";}
 lamda_link('base','<img src="src/wasm_go.png" style="width:100px;height:100px;" alt="src/wasm_go.jp2"/>','wasm-go','https://github.com/hartmanm/wasm_go','ee','infoaa','aa','<br><br><br>wasm-go<br><br><br>');
 lamda_link('base','<img src="src/mining_electric_cost_calculator.png" style="width:100px;height:100px;" alt="src/mining_electric_cost_calculator.jp2"/>','mining_electric_cost_calculator2','https://github.com/hartmanm/mining_electric_cost_calculator','rr','infobb','bb','<br><br><br>mining electric cost calculator<br><br><br>');
-//lamda_link('base','<img src="src/git_guide.png" style="width:100px;height:100px;" alt="src/git_guide.jp2"/>','Git Guide','https://gitguide.appspot.com','tt','infocc','cc','<br><br><br>Git Guide<br><br><br>');
 lamda_link('base','<img src="src/polar.png" style="width:100px;height:100px;" alt="src/polar.jp2"/>','polar clock','https://polar-clock.appspot.com','tt','infovv','cc','<br><br><br>polar clock<br><br><br>');
 //"d y f"
 //"kk vv jj";}
