@@ -1,0 +1,46 @@
+/*
+Copyright (c) 2018 Michael Neill Hartman. All rights reserved.
+mnh_license@proton.me
+https://github.com/hartmanm
+*/
+
+.header{padding: 30px; text-align: center; color: white; background-color: #145185;}
+.grid-container{
+display: grid;
+align: center;
+grid-template-columns: 3;
+grid-gap: 5px;
+justify-items: center;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+grid-template-areas:
+"e r t"
+"a b c"
+"ee rr tt"
+"aa bb cc"
+"d y f"
+"kk vv jj";}
+.e{grid-area: e;}
+.r{grid-area: r;}
+.t{grid-area: t;}
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+.ee{grid-area: ee;}
+.rr{grid-area: rr;}
+.tt{grid-area: tt;}
+.aa{grid-area: aa;}
+.bb{grid-area: bb;}
+.cc{grid-area: cc;}
+.d{grid-area: d;}
+.y{grid-area: y;}
+.f{grid-area: f;}
+.kk{grid-area: kk;}
+.vv{grid-area: vv;}
+.jj{grid-area: jj;}
+body{background:white;}
+
+.footer{margin-bottom: 20vw;background-color: #444e5f;}
+@media screen and (max-width: 1125px){.grid-container{transform: scale(0.80);transition: transform .2s;}}
