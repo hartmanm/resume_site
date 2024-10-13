@@ -32,5 +32,5 @@ const name_row_2_e ='mining_electric_cost_calculator'
 const url_row_2_e  ='https://github.com/hartmanm/mining_electric_cost_calculator?tab=License-1-ov-file'
 
 const img_row_2_f  ='<img src="src/polar.png" style="width:100px;height:100px;" alt="src/polar.jp2"/>'
-const name_row_2_f ='link_page to archives'
+const name_row_2_f ='link_page of archives'
 const url_row_2_f  ='https://hartmanm.github.io/link_page/link_page.html'
