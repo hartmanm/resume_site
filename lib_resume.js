@@ -69,7 +69,7 @@ lamdalink.addEventListener("click", function(e){var target = e.target || e.srcEl
 }
 
 generate_h1('b1','Michael Neill Hartman');
-generate_div('b2','<p>Some <b>Old</b> Projects</p>');
+generate_div('b1','<p>Some <b>Old</b> Projects</p>');
 
 
 //function generate_div(basename,innerhtml,id,classname)
