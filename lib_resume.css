@@ -4,7 +4,7 @@ mnh_license@proton.me
 https://github.com/hartmanm
 */
 
-.header{padding-top: 0%; padding-left: 0px; padding-right: 0px; text-align: center; color: white; background-color: #145185;}
+.header{padding: 30px; text-align: center; color: white; background-color: #145185;}
 .grid-container{
 display: grid;
 grid-template-columns: 2;
