@@ -9,7 +9,7 @@ https://github.com/hartmanm
 display: grid;
 align: center;
 grid-template-columns: 3;
-grid-gap: 0px;
+grid-gap: 5px;
 justify-items: center;
 margin-left: 10px;
 margin-right: 10px;
