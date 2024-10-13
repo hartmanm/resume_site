@@ -5,9 +5,9 @@ https://github.com/hartmanm
 */
 const description         ='resume site with css animations and lambda_links'
 
-const resume_name         ='Michael Neill Hartman'
+const resume_name         ='Michael Neill Hartman   '
 
-const headline_under_name ='<p>Some <b>Old</b> Projects</p>'
+const headline_under_name ='<p>Some <b>Old</b> Projects</p>   '
 
 // grid_row_1  a  b  c
 const img_row_1_a  ='<img src="src/d3_road_deaths.png" style="width:100px;height:100px;" alt="src/d3_road_deaths.jp2"/>'
