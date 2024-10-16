@@ -27,9 +27,13 @@ const img_row_2_d  ='<img src="src/hs_server.png" style="width:100px;height:100p
 const name_row_2_d ='hs'
 const url_row_2_d  ='https://github.com/hartmanm/hs_server'
 
-const img_row_2_e  ='<img src="src/mining_electric_cost_calculator.png" style="width:100px;height:100px;" alt="src/mining_electric_cost_calculator.jp2"/>'
-const name_row_2_e ='cost'
-const url_row_2_e  ='https://github.com/hartmanm/mining_electric_cost_calculator?tab=License-1-ov-file'
+//const img_row_2_e  ='<img src="src/mining_electric_cost_calculator.png" style="width:100px;height:100px;" alt="src/mining_electric_cost_calculator.jp2"/>'
+//const name_row_2_e ='cost'
+//const url_row_2_e  ='https://github.com/hartmanm/mining_electric_cost_calculator?tab=License-1-ov-file'
+
+const img_row_2_e  ='<img src="src/m11.png" style="width:100px;height:100px;" alt="src/m11.jp2"/>'
+const name_row_2_e ='m11'
+const url_row_2_e  ='https://github.com/hartmanm/m11_iot_trigger_hub?tab=License-1-ov-file'
 
 const img_row_2_f  ='<img src="src/link_page.png" style="width:100px;height:100px;" alt="src/link_page.jp2"/>'
 const name_row_2_f ='more'
