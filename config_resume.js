@@ -18,9 +18,9 @@ const img_row_1_b  ='<img src="src/nvoc.png" style="width:100px;height:100px;" a
 const name_row_1_b ='nvOC'
 const url_row_1_b  ='https://bitcointalk.org/index.php?topic=1854250.0'
 
-const img_row_1_c  ='<img src="src/lvl3.png" style="width:100px;height:100px;" alt="src/lvl3.jp2"/>'
-const name_row_1_c ='pavo'
-const url_row_1_c  ='https://github.com/hartmanm/pavo_td?tab=License-1-ov-file'
+const img_row_1_c  ='<img src="src/openrig.png" style="width:100px;height:100px;">'
+const name_row_1_c ='oapi'
+const url_row_1_c  ='https://github.com/hartmanm/overlord?tab=License-1-ov-file'
 
 // grid_row_2  d  e  f
 const img_row_2_d  ='<img src="src/hs_server.png" style="width:100px;height:100px;" alt="src/hs_server.jp2"/>'
